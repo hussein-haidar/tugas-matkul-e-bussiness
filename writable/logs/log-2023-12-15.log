@@ -1,0 +1,407 @@
+CRITICAL - 2023-12-15 13:46:18 --> Undefined variable $title2
+in APPPATH\Views\layout\v_nav.php on line 57.
+ 1 APPPATH\Views\layout\v_nav.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title2', 'C:\\xampp\\htdocs\\stok_gudang\\app\\Views\\layout\\v_nav.php', 57)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\stok_gudang\\app\\Views\\layout\\v_nav.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('layout/v_nav', [], true)
+ 5 APPPATH\Views\layout\v_wrapper.php(4): view('layout/v_nav')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\stok_gudang\\app\\Views\\layout\\v_wrapper.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('layout/v_wrapper', [], true)
+ 9 APPPATH\Controllers\Produk.php(13): view('layout/v_wrapper', [...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Produk->index()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-15 13:46:36 --> Undefined variable $title2
+in APPPATH\Views\layout\v_nav.php on line 58.
+ 1 APPPATH\Views\layout\v_nav.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title2', 'C:\\xampp\\htdocs\\stok_gudang\\app\\Views\\layout\\v_nav.php', 58)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\stok_gudang\\app\\Views\\layout\\v_nav.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('layout/v_nav', [], true)
+ 5 APPPATH\Views\layout\v_wrapper.php(4): view('layout/v_nav')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\stok_gudang\\app\\Views\\layout\\v_wrapper.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('layout/v_wrapper', [], true)
+ 9 APPPATH\Controllers\Produk.php(13): view('layout/v_wrapper', [...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Produk->index()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-15 14:05:31 --> Invalid file: "v_home.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('v_home.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('v_home', [], true)
+ 3 APPPATH\Views\layout\v_content.php(3): view('v_home')
+ 4 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\stok_gudang\\app\\Views\\layout\\v_content.php')
+ 5 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('layout/v_content', [], true)
+ 7 APPPATH\Views\layout\v_wrapper.php(5): view('layout/v_content')
+ 8 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\stok_gudang\\app\\Views\\layout\\v_wrapper.php')
+ 9 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+10 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('layout/v_wrapper', [], true)
+11 APPPATH\Controllers\Home.php(14): view('layout/v_wrapper', [...])
+12 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+13 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+14 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-15 14:05:52 --> Invalid file: "v_home.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('v_home.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('v_home', [], true)
+ 3 APPPATH\Views\layout\v_content.php(3): view('v_home')
+ 4 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\stok_gudang\\app\\Views\\layout\\v_content.php')
+ 5 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('layout/v_content', [], true)
+ 7 APPPATH\Views\layout\v_wrapper.php(5): view('layout/v_content')
+ 8 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\stok_gudang\\app\\Views\\layout\\v_wrapper.php')
+ 9 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+10 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('layout/v_wrapper', [], true)
+11 APPPATH\Controllers\Home.php(14): view('layout/v_wrapper', [...])
+12 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+13 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+14 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-15 14:53:15 --> Class "App\Models\M_produk" not found
+in APPPATH\Controllers\Produk.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Produk->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-15 14:53:56 --> Class "App\Models\M_produk" not found
+in APPPATH\Controllers\Produk.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Produk->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-15 14:53:57 --> Class "App\Models\M_produk" not found
+in APPPATH\Controllers\Produk.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Produk->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-15 14:53:58 --> Class "App\Models\M_produk" not found
+in APPPATH\Controllers\Produk.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Produk->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-15 14:53:58 --> Class "App\Models\M_produk" not found
+in APPPATH\Controllers\Produk.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Produk->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-15 15:07:09 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\xampp\htdocs\stok_gudang\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp\htdocs\stok_gudang\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', 'root', 'ci4', 3306, '', 0)
+#1 C:\xampp\htdocs\stok_gudang\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\stok_gudang\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\stok_gudang\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\stok_gudang\app\Models\M_produk.php(10): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\stok_gudang\app\Controllers\Produk.php(20): App\Models\M_produk->get_produk()
+#6 C:\xampp\htdocs\stok_gudang\system\CodeIgniter.php(942): App\Controllers\Produk->index()
+#7 C:\xampp\htdocs\stok_gudang\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#8 C:\xampp\htdocs\stok_gudang\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\stok_gudang\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp\htdocs\stok_gudang\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\stok_gudang\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\stok_gudang\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\stok_gudang\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\stok_gudang\app\Models\M_produk.php(10): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\stok_gudang\app\Controllers\Produk.php(20): App\Models\M_produk->get_produk()
+#5 C:\xampp\htdocs\stok_gudang\system\CodeIgniter.php(942): App\Controllers\Produk->index()
+#6 C:\xampp\htdocs\stok_gudang\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#7 C:\xampp\htdocs\stok_gudang\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\stok_gudang\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-12-15 15:07:09 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_produk`', [], false)
+ 3 APPPATH\Models\M_produk.php(10): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Produk.php(20): App\Models\M_produk->get_produk()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Produk->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-15 15:07:38 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\xampp\htdocs\stok_gudang\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp\htdocs\stok_gudang\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', 'root', 'ci4', 3306, '', 0)
+#1 C:\xampp\htdocs\stok_gudang\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\stok_gudang\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\stok_gudang\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\stok_gudang\app\Models\M_produk.php(10): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\stok_gudang\app\Controllers\Produk.php(20): App\Models\M_produk->get_produk()
+#6 C:\xampp\htdocs\stok_gudang\system\CodeIgniter.php(942): App\Controllers\Produk->index()
+#7 C:\xampp\htdocs\stok_gudang\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#8 C:\xampp\htdocs\stok_gudang\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\stok_gudang\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp\htdocs\stok_gudang\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\stok_gudang\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\stok_gudang\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\stok_gudang\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\stok_gudang\app\Models\M_produk.php(10): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\stok_gudang\app\Controllers\Produk.php(20): App\Models\M_produk->get_produk()
+#5 C:\xampp\htdocs\stok_gudang\system\CodeIgniter.php(942): App\Controllers\Produk->index()
+#6 C:\xampp\htdocs\stok_gudang\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#7 C:\xampp\htdocs\stok_gudang\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\stok_gudang\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-12-15 15:07:38 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_produk`', [], false)
+ 3 APPPATH\Models\M_produk.php(10): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Produk.php(20): App\Models\M_produk->get_produk()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Produk->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-15 15:07:39 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\xampp\htdocs\stok_gudang\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp\htdocs\stok_gudang\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', 'root', 'ci4', 3306, '', 0)
+#1 C:\xampp\htdocs\stok_gudang\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\stok_gudang\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\stok_gudang\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\stok_gudang\app\Models\M_produk.php(10): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\stok_gudang\app\Controllers\Produk.php(20): App\Models\M_produk->get_produk()
+#6 C:\xampp\htdocs\stok_gudang\system\CodeIgniter.php(942): App\Controllers\Produk->index()
+#7 C:\xampp\htdocs\stok_gudang\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#8 C:\xampp\htdocs\stok_gudang\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\stok_gudang\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp\htdocs\stok_gudang\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\stok_gudang\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\stok_gudang\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\stok_gudang\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\stok_gudang\app\Models\M_produk.php(10): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\stok_gudang\app\Controllers\Produk.php(20): App\Models\M_produk->get_produk()
+#5 C:\xampp\htdocs\stok_gudang\system\CodeIgniter.php(942): App\Controllers\Produk->index()
+#6 C:\xampp\htdocs\stok_gudang\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#7 C:\xampp\htdocs\stok_gudang\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\stok_gudang\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-12-15 15:07:39 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_produk`', [], false)
+ 3 APPPATH\Models\M_produk.php(10): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Produk.php(20): App\Models\M_produk->get_produk()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Produk->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-15 15:07:58 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\xampp\htdocs\stok_gudang\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp\htdocs\stok_gudang\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', 'root', 'ci4', 3306, '', 0)
+#1 C:\xampp\htdocs\stok_gudang\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\stok_gudang\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\stok_gudang\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\stok_gudang\app\Models\M_produk.php(10): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\stok_gudang\app\Controllers\Produk.php(20): App\Models\M_produk->get_produk()
+#6 C:\xampp\htdocs\stok_gudang\system\CodeIgniter.php(942): App\Controllers\Produk->index()
+#7 C:\xampp\htdocs\stok_gudang\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#8 C:\xampp\htdocs\stok_gudang\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\stok_gudang\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp\htdocs\stok_gudang\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\stok_gudang\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\stok_gudang\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\stok_gudang\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\stok_gudang\app\Models\M_produk.php(10): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\stok_gudang\app\Controllers\Produk.php(20): App\Models\M_produk->get_produk()
+#5 C:\xampp\htdocs\stok_gudang\system\CodeIgniter.php(942): App\Controllers\Produk->index()
+#6 C:\xampp\htdocs\stok_gudang\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#7 C:\xampp\htdocs\stok_gudang\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\stok_gudang\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-12-15 15:07:58 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_produk`', [], false)
+ 3 APPPATH\Models\M_produk.php(10): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Produk.php(20): App\Models\M_produk->get_produk()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Produk->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-15 15:07:59 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\xampp\htdocs\stok_gudang\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp\htdocs\stok_gudang\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', 'root', 'ci4', 3306, '', 0)
+#1 C:\xampp\htdocs\stok_gudang\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\stok_gudang\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\stok_gudang\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\stok_gudang\app\Models\M_produk.php(10): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\stok_gudang\app\Controllers\Produk.php(20): App\Models\M_produk->get_produk()
+#6 C:\xampp\htdocs\stok_gudang\system\CodeIgniter.php(942): App\Controllers\Produk->index()
+#7 C:\xampp\htdocs\stok_gudang\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#8 C:\xampp\htdocs\stok_gudang\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\stok_gudang\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp\htdocs\stok_gudang\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\stok_gudang\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\stok_gudang\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\stok_gudang\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\stok_gudang\app\Models\M_produk.php(10): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\stok_gudang\app\Controllers\Produk.php(20): App\Models\M_produk->get_produk()
+#5 C:\xampp\htdocs\stok_gudang\system\CodeIgniter.php(942): App\Controllers\Produk->index()
+#6 C:\xampp\htdocs\stok_gudang\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#7 C:\xampp\htdocs\stok_gudang\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\stok_gudang\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-12-15 15:07:59 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_produk`', [], false)
+ 3 APPPATH\Models\M_produk.php(10): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Produk.php(20): App\Models\M_produk->get_produk()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Produk->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-15 15:08:08 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\xampp\htdocs\stok_gudang\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp\htdocs\stok_gudang\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', 'root', 'ci4', 3306, '', 0)
+#1 C:\xampp\htdocs\stok_gudang\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\stok_gudang\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\stok_gudang\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\stok_gudang\app\Models\M_produk.php(10): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\stok_gudang\app\Controllers\Produk.php(20): App\Models\M_produk->get_produk()
+#6 C:\xampp\htdocs\stok_gudang\system\CodeIgniter.php(942): App\Controllers\Produk->index()
+#7 C:\xampp\htdocs\stok_gudang\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#8 C:\xampp\htdocs\stok_gudang\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\stok_gudang\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp\htdocs\stok_gudang\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\stok_gudang\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\stok_gudang\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\stok_gudang\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\stok_gudang\app\Models\M_produk.php(10): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\stok_gudang\app\Controllers\Produk.php(20): App\Models\M_produk->get_produk()
+#5 C:\xampp\htdocs\stok_gudang\system\CodeIgniter.php(942): App\Controllers\Produk->index()
+#6 C:\xampp\htdocs\stok_gudang\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#7 C:\xampp\htdocs\stok_gudang\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\stok_gudang\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-12-15 15:08:08 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_produk`', [], false)
+ 3 APPPATH\Models\M_produk.php(10): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Produk.php(20): App\Models\M_produk->get_produk()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Produk->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-15 15:08:37 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\xampp\htdocs\stok_gudang\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp\htdocs\stok_gudang\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', 'root', 'gudangweb', 3306, '', 0)
+#1 C:\xampp\htdocs\stok_gudang\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\stok_gudang\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\stok_gudang\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\stok_gudang\app\Models\M_produk.php(10): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\stok_gudang\app\Controllers\Produk.php(20): App\Models\M_produk->get_produk()
+#6 C:\xampp\htdocs\stok_gudang\system\CodeIgniter.php(942): App\Controllers\Produk->index()
+#7 C:\xampp\htdocs\stok_gudang\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#8 C:\xampp\htdocs\stok_gudang\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\stok_gudang\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp\htdocs\stok_gudang\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\stok_gudang\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\stok_gudang\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\stok_gudang\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\stok_gudang\app\Models\M_produk.php(10): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\stok_gudang\app\Controllers\Produk.php(20): App\Models\M_produk->get_produk()
+#5 C:\xampp\htdocs\stok_gudang\system\CodeIgniter.php(942): App\Controllers\Produk->index()
+#6 C:\xampp\htdocs\stok_gudang\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#7 C:\xampp\htdocs\stok_gudang\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\stok_gudang\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-12-15 15:08:37 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_produk`', [], false)
+ 3 APPPATH\Models\M_produk.php(10): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Produk.php(20): App\Models\M_produk->get_produk()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Produk->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-15 15:08:38 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\xampp\htdocs\stok_gudang\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp\htdocs\stok_gudang\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', 'root', 'gudangweb', 3306, '', 0)
+#1 C:\xampp\htdocs\stok_gudang\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\stok_gudang\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\stok_gudang\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\stok_gudang\app\Models\M_produk.php(10): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\stok_gudang\app\Controllers\Produk.php(20): App\Models\M_produk->get_produk()
+#6 C:\xampp\htdocs\stok_gudang\system\CodeIgniter.php(942): App\Controllers\Produk->index()
+#7 C:\xampp\htdocs\stok_gudang\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#8 C:\xampp\htdocs\stok_gudang\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\stok_gudang\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp\htdocs\stok_gudang\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\stok_gudang\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\stok_gudang\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\stok_gudang\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\stok_gudang\app\Models\M_produk.php(10): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\stok_gudang\app\Controllers\Produk.php(20): App\Models\M_produk->get_produk()
+#5 C:\xampp\htdocs\stok_gudang\system\CodeIgniter.php(942): App\Controllers\Produk->index()
+#6 C:\xampp\htdocs\stok_gudang\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#7 C:\xampp\htdocs\stok_gudang\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\stok_gudang\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-12-15 15:08:38 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_produk`', [], false)
+ 3 APPPATH\Models\M_produk.php(10): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Produk.php(20): App\Models\M_produk->get_produk()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Produk->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-15 15:15:51 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 884.
+ 1 SYSTEMPATH\Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Produk.php(20): CodeIgniter\Model->__call('get_tbl_produk', [])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Produk->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

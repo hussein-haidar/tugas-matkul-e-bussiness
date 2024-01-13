@@ -1,0 +1,13 @@
+CRITICAL - 2023-12-13 10:32:59 --> syntax error, unexpected double-quoted string ">", expecting "," or ";"
+in APPPATH\Views\layout\v_nav.php on line 28.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('layout/v_nav', [], true)
+ 3 APPPATH\Views\layout\v_wrapper.php(4): view('layout/v_nav')
+ 4 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\stok_gudang\\app\\Views\\layout\\v_wrapper.php')
+ 5 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('layout/v_wrapper', [], true)
+ 7 APPPATH\Controllers\Home.php(13): view('layout/v_wrapper', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
