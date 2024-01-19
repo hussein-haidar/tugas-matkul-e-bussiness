@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 06 Jan 2024 pada 16.37
+-- Waktu pembuatan: 19 Jan 2024 pada 09.40
 -- Versi server: 10.4.21-MariaDB
 -- Versi PHP: 8.0.10
 
@@ -109,8 +109,7 @@ CREATE TABLE `tbl_data_user` (
 
 INSERT INTO `tbl_data_user` (`id_user`, `username`, `password`, `nama_lengkap`, `notelpon_user`, `jobdesk_user`, `level`, `foto_user`, `update_at`) VALUES
 (19, 'admin', '1234', 'Administrator', '08523320390', 'Mengelola Akun Pengguna Sistem', 1, '1703648661_49a03e037299da324c44.png', '2024-01-01 14:04:03'),
-(20, 'zahidin', '1234', 'M. Zahidin', '08523300000', 'Karyawan gudang', 1, '1704545442_54e541f4e470eb527a66.png', '2024-01-06 12:50:42'),
-(21, 'ahmad', '1234', 'Ahmad Subarjo', '085233090909', 'Pemilik Gudang', 2, '1703690263_f7db92c70371274c78f5.png', '2023-12-28 03:27:58');
+(20, 'pemilik', '1234', 'Pemilik', '08523300000', 'Pemilik', 2, '1704545442_54e541f4e470eb527a66.png', '2024-01-08 04:36:02');
 
 -- --------------------------------------------------------
 
@@ -141,7 +140,7 @@ INSERT INTO `tbl_jenis_produk` (`id_jenis`, `jenis_produk`) VALUES
 
 CREATE TABLE `tbl_laporan_produk` (
   `id_laporan` int(11) NOT NULL,
-  `id_distribusi` int(11) DEFAULT NULL,
+  `id_mutation` int(11) DEFAULT NULL,
   `id_produk` int(11) DEFAULT NULL,
   `id_cabang` int(11) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
@@ -150,8 +149,8 @@ CREATE TABLE `tbl_laporan_produk` (
 -- Dumping data untuk tabel `tbl_laporan_produk`
 --
 
-INSERT INTO `tbl_laporan_produk` (`id_laporan`, `id_distribusi`, `id_produk`, `id_cabang`) VALUES
-(2, 2, 3, 2);
+INSERT INTO `tbl_laporan_produk` (`id_laporan`, `id_mutation`, `id_produk`, `id_cabang`) VALUES
+(2, 17, 3, 2);
 
 -- --------------------------------------------------------
 
@@ -189,6 +188,14 @@ CREATE TABLE `tbl_mutation` (
   `update_at` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
+--
+-- Dumping data untuk tabel `tbl_mutation`
+--
+
+INSERT INTO `tbl_mutation` (`id_mutation`, `jumlah_mutation`, `tanggal_mutation`, `cabang_asal`, `cabang_tujuan`, `id_produk`, `update_at`) VALUES
+(17, '5', '2024-01-09', 1, 2, 1, '2024-01-07 10:25:11'),
+(18, '5', '2024-01-09', 2, 1, 2, '2024-01-08 02:49:40');
+
 -- --------------------------------------------------------
 
 --
@@ -201,6 +208,7 @@ CREATE TABLE `tbl_stok_produk` (
   `tanggal_masuk_produk` date NOT NULL,
   `update_at` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp(),
   `id_produk` int(11) DEFAULT NULL,
+  `id_motif` int(11) DEFAULT NULL,
   `id_cabang` int(11) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
@@ -208,8 +216,9 @@ CREATE TABLE `tbl_stok_produk` (
 -- Dumping data untuk tabel `tbl_stok_produk`
 --
 
-INSERT INTO `tbl_stok_produk` (`id_stok`, `jumlah_stok_produk`, `tanggal_masuk_produk`, `update_at`, `id_produk`, `id_cabang`) VALUES
-(9, '0', '2024-01-01', '2024-01-06 15:35:55', 1, 1);
+INSERT INTO `tbl_stok_produk` (`id_stok`, `jumlah_stok_produk`, `tanggal_masuk_produk`, `update_at`, `id_produk`, `id_motif`, `id_cabang`) VALUES
+(11, '5', '2024-01-08', '2024-01-07 13:46:30', 1, 1, 1),
+(12, '5', '2024-01-08', '2024-01-08 02:49:40', 2, 1, 2);
 
 --
 -- Indexes for dumped tables
@@ -319,13 +328,13 @@ ALTER TABLE `tbl_motif_produk`
 -- AUTO_INCREMENT untuk tabel `tbl_mutation`
 --
 ALTER TABLE `tbl_mutation`
-  MODIFY `id_mutation` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
+  MODIFY `id_mutation` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=19;
 
 --
 -- AUTO_INCREMENT untuk tabel `tbl_stok_produk`
 --
 ALTER TABLE `tbl_stok_produk`
-  MODIFY `id_stok` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+  MODIFY `id_stok` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
