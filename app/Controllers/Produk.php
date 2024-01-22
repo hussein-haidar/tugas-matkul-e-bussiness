@@ -177,9 +177,7 @@ class Produk extends BaseController
                     'nama_produk' => $this->request->getPost('nama_produk'),
                     'id_motif' => $this->request->getPost('id_motif'),
                     'id_jenis' => $this->request->getPost('id_jenis'),
-                    'stok_produk' => $this->request->getPost('stok_produk'),
                     'deskripsi_produk' => $this->request->getPost('deskripsi_produk'),
-                    'tanggal_masuk_produk' => $this->request->getPost('tanggal_masuk_produk'),
                 ];
                 $this->M_produk->edit($data);
             } else {
@@ -196,10 +194,8 @@ class Produk extends BaseController
                     'nama_produk' => $this->request->getPost('nama_produk'),
                     'id_motif' => $this->request->getPost('id_motif'),
                     'id_jenis' => $this->request->getPost('id_jenis'),
-                    'stok_produk' => $this->request->getPost('stok_produk'),
                     'deskripsi_produk' => $this->request->getPost('deskripsi_produk'),
                     'foto_produk' => $nama_file,
-                    'tanggal_masuk_produk' => $this->request->getPost('tanggal_masuk_produk'),
                 );
                 // File foto disimpan di folder foto_produk
                 $foto->move('fotoproduk', $nama_file);
