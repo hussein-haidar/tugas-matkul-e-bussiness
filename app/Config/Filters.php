@@ -31,7 +31,7 @@ class Filters extends BaseConfig
 	 */
 	public $globals = [
 		'before' => [
-			'filter_admin' => ['except' => [
+        	'filter_admin' => ['except' => [
 				'auth', 'auth/*',
 			]],
 			'filter_pemilik' => ['except' => [
@@ -43,25 +43,26 @@ class Filters extends BaseConfig
 			// 'csrf',
 		],
 		'after'  => [
-			'filter_admin' => ['except' => [
-				'home', 'home/*',
-				'produk', 'produk/*',
-				'cabang', 'cabang/*',
-				'jenis_produk', 'jenis_produk/*',
-				'motif_produk', 'motif_produk/*',
-				'stok_produk', 'stok_produk/*',
-				'mutation', 'mutation/*',
-				'laporan_admin', 'laporan_admin/*',
-				'laporan_pemilik', 'cetak_laporan/*',
-				'user', 'user/*',
-				'profile', 'profile/*',
-			]],
-			'filter_pemilik' => ['except' => [
-				'pemilik', 'pemilik/*',
-				'laporan_pemilik', 'laporan_pemilik/*',
-				'laporan_pemilik', 'cetak_laporan/*',
-				'profile', 'profile/*',
-			]],
+		//	'filter_admin' => ['except' => [
+			//	'home', 'home/*',
+			//	'produk', 'produk/*',
+			//	'cabang', 'cabang/*',
+			//	'jenis_produk', 'jenis_produk/*',
+			//	'motif_produk', 'motif_produk/*',
+			//	'stok_produk', 'stok_produk/*',
+			//	'mutation', 'mutation/*',
+			//	'status_mutasi', 'status_mutasi/*',
+			//	'laporan_admin', 'laporan_admin/*',
+			//	'laporan_pemilik', 'cetak_laporan/*',
+			//	'user', 'user/*',
+			//	'profile', 'profile/*',
+		//	]],
+		//	'filter_pemilik' => ['except' => [
+			//	'pemilik', 'pemilik/*',
+			//	'laporan_pemilik', 'laporan_pemilik/*',
+			//	'laporan_pemilik', 'cetak_laporan/*',
+			//	'profile', 'profile/*',
+		//	]],
 			'toolbar',
 			// 'honeypot',
 		],
@@ -88,6 +89,7 @@ class Filters extends BaseConfig
 	 * @var array
 	 */
 	public $filters = [
-		'login' => ['before' => ['admin']]
+		'login' => ['before' => ['admin']],
+		'login' => ['before' => ['pemilik']]
 	];
 }
